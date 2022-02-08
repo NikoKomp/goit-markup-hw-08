@@ -50,3 +50,10 @@
     margin-bottom: 10px;
   }
 }
+.nav-link-items {
+  display: block;
+
+  @media screen and(min-width: 1200px) {
+    display: flex;
+  }
+}
