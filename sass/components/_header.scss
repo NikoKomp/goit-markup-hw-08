@@ -154,3 +154,11 @@
 .mob__menu__bottom {
   margin-top: auto;
 }
+.nav-link__items {
+  display: block;
+
+  @media screen and(min-width: 1200px) {
+    display: flex;
+    visibility: inherit;
+  }
+}

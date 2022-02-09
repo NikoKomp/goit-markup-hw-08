@@ -249,6 +249,19 @@ body {
   margin-top: auto;
 }
 
+.nav-link__items {
+  display: block;
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-link__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    visibility: inherit;
+  }
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -467,19 +480,6 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 10px;
-  }
-}
-
-.nav-link__items {
-  display: block;
-}
-
-@media screen and (min-width: 1200px) {
-  .nav-link__items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    visibility: inherit;
   }
 }
 
