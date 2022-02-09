@@ -50,10 +50,11 @@
     margin-bottom: 10px;
   }
 }
-.nav-link-items {
+.nav-link__items {
   display: block;
 
   @media screen and(min-width: 1200px) {
     display: flex;
+    visibility: inherit;
   }
 }
