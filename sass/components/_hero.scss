@@ -5,10 +5,10 @@
 
   font-weight: 900;
   font-size: 26px;
-  line-height: 1.36;
+  line-height: 1.61;
   text-align: center;
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 1200px) {
     font-size: 44px;
   }
 }
@@ -52,15 +52,17 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../image/hero-tab-1x.jpg);
+      url(../image/hero-tab.jpg);
     max-width: 1600px;
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
     background-size: cover;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 198px;
+
+
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),

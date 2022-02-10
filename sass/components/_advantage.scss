@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 768px;
+    width: calc((100% - 2 * 30px) / 2);
     flex-wrap: wrap;
     margin-bottom: 60px;
   }
@@ -35,23 +35,21 @@
 
   @media screen and (min-width: 768px) {
     margin-right: 30px;
-    margin-bottom: 0;
   }
-  /* &:nth-child(2n) {
+ /*   &:nth-child(2n) {
     margin-right: 0px;
-  }
+  } */
 
   @media screen and (min-width: 1200px) {
-    margin-right: 30px;
     margin-bottom: 0;
   }
-  &:last-child {
+  /* &:last-child {
     margin-right: 0px;
   }
   &:nth-child(2n) {
     margin-right: 30px;
   } */
-}
+} 
 .advantage__picture {
   display: flex;
   margin-bottom: 30px;
