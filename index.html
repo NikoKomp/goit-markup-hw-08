@@ -80,13 +80,13 @@
 
 
  <!-- Our advantage -->
-       <section class="section advantage-section">
+        <section class="section advantage-section">
         <div class="container">
         <h2 hidden>Наши преимущества</h2>
             <ul class="advantage">
                 <li class="advantage__list">
                     <div class="advantage__picture">
-                        <svg>
+                        <svg class="svg_picture">
                             <use href="image/symbol-defs.svg#icon-antenna-1"> 
                             </use>
                          </svg>
@@ -96,7 +96,7 @@
                 </li>
                 <li class="advantage__list">
                     <div class="advantage__picture">
-                        <svg >
+                        <svg class="svg_picture">
                         <use href="image/symbol-defs.svg#icon-clock-1"> </use>
                         </svg>
                     </div>
@@ -105,7 +105,7 @@
                 </li>
                 <li class="advantage__list">
                     <div class="advantage__picture">
-                    <svg >
+                    <svg class="svg_picture">
                         <use href="image/symbol-defs.svg#icon-diagram-1"> </use>
                     </svg>
                     </div>
@@ -114,7 +114,7 @@
                 </li>
                 <li class="advantage__list">
                     <div class="advantage__picture">
-                    <svg>
+                    <svg class="svg_picture">
                         <use href="image/symbol-defs.svg#icon-astronaut-1"> </use>
                     </svg>
                     </div>
@@ -123,7 +123,7 @@
                 </li>
             </ul>
         </div>
-        </section>  
+        </section>   
  
 
 
@@ -163,15 +163,10 @@
             <ul class="team__list">
                 <li class="team__card">
                   
-                        <img  srcset="./image/team1-mob-1x.jpg 1x, 
-                                ./image/team1-mob-2x.jpg 2x"
-                                 srcset="./image/team1-tab-1x.jpg 1x, 
+                        <img  srcset="./image/team1-tab-1x.jpg 1x, 
                                 ./image/team1-tab-2x.jpg 2x"
-                                 srcset="./image/team1-desk-1x.jpg 1x, 
-                                ./image/team1-desk-2x.jpg 2x"
+                       src="./image/team1-desk-1x.jpg"
                         class="team__photo" alt="Игорь Демяненко">
-                
-                   
                     <div class="team__text">
                     <h3 class="team__name">Игорь Демяненко</h3>
                     <p class="team__post">Product Designer</p>
@@ -211,11 +206,7 @@
                     <img 
                     srcset="./image/team2-mob-1x.jpg 1x, 
                                 ./image/team2-mob-2x.jpg 2x"
-                                 srcset="./image/team2-tab-1x.jpg 1x, 
-                                ./image/team2-tab-2x.jpg 2x"
-                                 srcset="./image/team2-desk-1x.jpg 1x, 
-                                ./image/team2-desk-2x.jpg 2x"
-                                src="image/photo2.jpg" 
+                                src="./image/team2-mob-1x.jpg" 
                                 class="team__photo"  
                                 alt="Ольга Репина">
                     <div class="team__text">
@@ -256,11 +247,7 @@
                 <li class="team__card">
                     <img  srcset="./image/team3-mob-1x.jpg 1x, 
                                 ./image/team3-mob-2x.jpg 2x"
-                                 srcset="./image/team3-tab-1x.jpg 1x, 
-                                ./image/team3-tab-2x.jpg 2x"
-                                 srcset="./image/team3-desk-1x.jpg 1x, 
-                                ./image/team3-desk-2x.jpg 2x"
-                    src="image/photo3.jpg" 
+                    src="./image/team3-mob-1x.jpg" 
                     class="team__photo" 
                     alt="Николай Тарасов">
                     <div class="team__text">
@@ -301,11 +288,7 @@
                 <li class="team__card ">
                     <img srcset="./image/team4-mob-1x.jpg 1x, 
                                 ./image/team4-mob-2x.jpg 2x"
-                                 srcset="./image/team4-tab-1x.jpg 1x, 
-                                ./image/team4-tab-2x.jpg 2x"
-                                 srcset="./image/team4-desk-1x.jpg 1x, 
-                                ./image/team4-desk-2x.jpg 2x"
-                    src="image/photo4.jpg" 
+                    src="./image/team4-mob-1x.jpg " 
                     class="team__photo" 
                     alt="Михаил Ермаков">
                     <div class="team__text">
@@ -513,13 +496,13 @@
     </div>
     <div class="backdrop is-hidden" data-menu>
         <div class="mobile container">
-            <div class="container-mobile">
+            <div class="mobile-height">
+                <button type="button" class="mobile__button-close" data-menu-close>
+                    <svg width="19" height="19">
+                        <use href="image/symbol-defs-close.svg#icon-close_24px"></use>
+                    </svg>
+                </button>
                 <div class="mob__menu__top">
-                    <button type="button" class="mobile__button-close" data-menu-close>
-                        <svg width="19" height="19">
-                            <use href="image/symbol-defs-close.svg#icon-close_24px"></use>
-                        </svg>
-                    </button>
                     <ul class="mobile__submenu">
                         <li class="mobile__submenu__bar">
                             <a href="https://nikokomp.github.io/goit-markup-hw-08/"

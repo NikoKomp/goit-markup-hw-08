@@ -33,13 +33,15 @@
   .clients__card-border {
     width: calc((100% - 2 * 30px) / 2);
     margin: 15px;
-    /* 
-    &:nth-child(2n + 2) {
-      margin-right: 0;
+
+    @media screen and (min-width: 768px) {
+      width: 226px;
+      height: 92px;
     }
-    &:nth-last-child(-n + 2) {
-      margin-bottom: 0;
-    } */
+    @media screen and (min-width: 1200px) {
+      width: 170px;
+      height: 92px;
+    }
   }
   .clients__card-border :hover,
   .clients__card-border :focus {
