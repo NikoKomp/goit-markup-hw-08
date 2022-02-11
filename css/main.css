@@ -2067,10 +2067,6 @@ textarea {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
@@ -2101,6 +2097,7 @@ textarea {
 }
 
 .portfolio__text {
+  width: 100%;
   padding: 20px 23px;
   background: #ffffff;
   border-right: 1px solid #eeeeee;
@@ -2117,9 +2114,8 @@ textarea {
 }
 
 .portfolio__item {
-  width: 450px;
-  height: 404px;
   margin-bottom: 30px;
+  width: 100%;
   /*  &:nth-child(3n + 3) {
     margin-right: 0px;
   }
@@ -2127,6 +2123,12 @@ textarea {
     padding-bottom: 0px;
     margin-bottom: 0px;
   } */
+}
+
+@media screen and (min-width: 480px) {
+  .portfolio__item {
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2162,8 +2164,7 @@ textarea {
 }
 
 .portfolio__card {
-  width: 450px;
-  height: 294px;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -2171,6 +2172,7 @@ textarea {
 @media screen and (min-width: 768px) {
   .portfolio__card {
     width: 100%;
+    height: 294px;
   }
 }
 
@@ -2210,7 +2212,14 @@ textarea {
 .portfolio__pic {
   display: block;
   height: auto;
-  width: 450px;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .portfolio__pic {
+    height: 294px;
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 768px) {
