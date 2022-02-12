@@ -38,6 +38,7 @@
   background-color: white;
   max-width: 480px;
   height: 768px;
+  overflow-y: scroll;
 }
 .mobile__submenu {
   margin-top: 8px;
@@ -118,14 +119,13 @@
 }
 .mobile__social {
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
   align-items: center;
-  @media screen and (max-width: 480px){
-display: flex;
-flex-direction: column;
-align-items: start;
+  @media screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
-  
 
   /*  padding-bottom: 48px; */
   /*  padding-left: 30px; */
@@ -138,8 +138,7 @@ align-items: start;
   &:last-child {
     border-right: none;
   }
-  @media screen and (max-width: 480px){
-   
+  @media screen and (max-width: 480px) {
     border-right: none;
   }
 }
