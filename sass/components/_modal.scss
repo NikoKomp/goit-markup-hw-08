@@ -117,6 +117,12 @@ input {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     outline: 1px solid var(--button-color);
   }
+  @media screen and(min-width: 480px) {
+    max-width: 370px;
+  }
+  @media screen and(min-width: 1200px) {
+    max-width: 448px;
+  }
 }
 .modal__conditions-text {
   display: flex;

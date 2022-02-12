@@ -1801,6 +1801,18 @@ input {
   outline: 1px solid var(--button-color);
 }
 
+@media screen and (min-width: 480px) {
+  .input-text {
+    max-width: 370px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .input-text {
+    max-width: 448px;
+  }
+}
+
 .modal__conditions-text {
   display: -webkit-box;
   display: -webkit-flex;
