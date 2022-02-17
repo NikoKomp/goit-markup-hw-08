@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAA,CACF,gBAAgB,CAAE,UAAU,CAC7B",
+    "sources": [
+        "../sass/components/IceCream.scss"
+    ],
+    "names": [],
+    "file": "IceCream.min.css"
+}

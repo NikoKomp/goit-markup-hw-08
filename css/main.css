@@ -2264,4 +2264,8 @@ textarea {
     margin-right: 30px;
   }
 }
+
+.container__advantage {
+  background-color: chartreuse;
+}
 /*# sourceMappingURL=main.css.map */
